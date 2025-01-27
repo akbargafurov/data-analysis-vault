@@ -1,0 +1,133 @@
+Round,Wk,Day,Date,Time,Home,xG,Score,xG,Away,Attendance,Venue,Referee,Match Report,Notes
+Group stage,1,Tue,2023-09-19,18:45,Milanit,1.9,0–0,0.3,engNewcastle Utd,"65,695",Stadio Giuseppe Meazza,José Sánchez,Match Report,
+Group stage,1,Tue,2023-09-19,18:45,Young Boysch,0.5,1–3,2.6,deRB Leipzig,"31,500",Stadion Wankdorf,Enea Jorgji,Match Report,
+Group stage,1,Tue,2023-09-19,20:00,Manchester Cityeng,4.1,3–1,0.8,rsRed Star,"50,204",Etihad Stadium,João Pinheiro,Match Report,
+Group stage,1,Tue,2023-09-19,21:00,Paris S-Gfr,2.4,2–0,0.7,deDortmund,"47,379",Parc des Princes,Jesús Gil,Match Report,
+Group stage,1,Tue,2023-09-19,21:00,Lazioit,1.2,1–1,0.9,esAtlético Madrid,"46,168",Stadio Olimpico,Slavko Vinčič,Match Report,
+Group stage,1,Tue,2023-09-19,21:00,Feyenoordnl,1.6,2–0,0.3,sctCeltic,"44,008",Stadion Feijenoord,Irfan Peljto,Match Report,
+Group stage,1,Tue,2023-09-19,21:00,Barcelonaes,2.8,5–0,0.3,beAntwerp,"40,989",Estadi Olímpic Lluís Companys,Radu Petrescu,Match Report,
+Group stage,1,Tue,2023-09-19,22:00,Shakhtarua,0.5,1–3,1.8,ptPorto,"46,729",Volksparkstadion,Davide Massa,Match Report,
+Group stage,1,Wed,2023-09-20,18:45,Real Madrides,3.7,1–0,0.2,deUnion Berlin,"65,207",Estadio Santiago Bernabéu,Espen Eskås,Match Report,
+Group stage,1,Wed,2023-09-20,19:45,Galatasaraytr,1.1,2–2,0.6,dkFC Copenhagen,"46,911",RAMS Park,Georgi Kabakov,Match Report,
+Group stage,1,Wed,2023-09-20,20:00,Bragapt,1.4,1–2,1.7,itNapoli,"18,422",Estádio Municipal de Braga,Serdar Gözübüyük,Match Report,
+Group stage,1,Wed,2023-09-20,20:00,Arsenaleng,2.3,4–0,0.5,nlPSV Eindhoven,"58,860",Emirates Stadium,Felix Zwayer,Match Report,
+Group stage,1,Wed,2023-09-20,20:00,Benficapt,1.5,0–2,3.3,atRB Salzburg,"60,917",Estádio do Sport Lisboa e Benfica,Halil Umut Meler,Match Report,
+Group stage,1,Wed,2023-09-20,21:00,Sevillaes,0.8,1–1,1.3,frLens,"33,544",Estadio Ramón Sánchez Pizjuán,Tobias Stieler,Match Report,
+Group stage,1,Wed,2023-09-20,21:00,Bayern Munichde,2.2,4–3,1.7,engManchester Utd,"75,000",Trainingsgelände Allianz Arena,Glenn Nyberg,Match Report,
+Group stage,1,Wed,2023-09-20,21:00,Real Sociedades,1.3,1–1,0.5,itInter,"36,591",Reale Arena,Michael Oliver,Match Report,
+,,,,,,,,,,,,,,
+Group stage,2,Tue,2023-10-03,18:45,RB Salzburgat,0.6,0–2,1.2,esReal Sociedad,"28,227",Red Bull Arena,Bartosz Frankowski,Match Report,
+Group stage,2,Tue,2023-10-03,18:45,Union Berlinde,2.0,2–3,1.2,ptBraga,"73,445",Olympiastadion Berlin,Srđan Jovanović,Match Report,
+Group stage,2,Tue,2023-10-03,20:00,Manchester Utdeng,2.3,2–3,2.6,trGalatasaray,"73,204",Old Trafford,Ivan Kružliak,Match Report,
+Group stage,2,Tue,2023-10-03,21:00,PSV Eindhovennl,2.6,2–2,1.3,esSevilla,"34,206",Philips Stadion,Daniele Orsato,Match Report,
+Group stage,2,Tue,2023-10-03,21:00,Interit,3.8,1–0,0.3,ptBenfica,"66,573",Stadio Giuseppe Meazza,Danny Makkelie,Match Report,
+Group stage,2,Tue,2023-10-03,21:00,FC Copenhagendk,0.9,1–2,0.9,deBayern Munich,"35,690",Parken,Orel Grinfeeld,Match Report,
+Group stage,2,Tue,2023-10-03,21:00,Napoliit,1.9,2–3,1.4,esReal Madrid,"51,649",Stadio Diego Armando Maradona,Clément Turpin,Match Report,
+Group stage,2,Tue,2023-10-03,21:00,Lensfr,0.7,2–1,1.5,engArsenal,"37,040",Stade Bollaert-Delelis,Marco Guida,Match Report,
+Group stage,2,Wed,2023-10-04,18:45,Atlético Madrides,0.8,3–2,2.4,nlFeyenoord,"61,742",Estadio Cívitas Metropolitano,François Letexier,Match Report,
+Group stage,2,Wed,2023-10-04,18:45,Antwerpbe,1.8,2–3,2.3,uaShakhtar,"13,509",Bosuilstadion,Rade Obrenović,Match Report,
+Group stage,2,Wed,2023-10-04,20:00,Newcastle Utdeng,0.9,4–1,0.9,frParis S-G,"52,009",St James' Park,István Kovács,Match Report,
+Group stage,2,Wed,2023-10-04,20:00,Portopt,0.7,0–1,1.3,esBarcelona,"49,722",Estádio Do Dragão,Anthony Taylor,Match Report,
+Group stage,2,Wed,2023-10-04,20:00,Celticsct,1.1,1–2,0.7,itLazio,"56,063",Celtic Park,Donatas Rumšas,Match Report,
+Group stage,2,Wed,2023-10-04,21:00,RB Leipzigde,0.5,1–3,2.2,engManchester City,"45,228",Red Bull Arena,Artur Soares Dias,Match Report,
+Group stage,2,Wed,2023-10-04,21:00,Dortmundde,1.0,0–0,1.6,itMilan,"81,365",Signal Iduna Park,Szymon Marciniak,Match Report,
+Group stage,2,Wed,2023-10-04,21:00,Red Starrs,2.6,2–2,2.6,chYoung Boys,"47,201",Stadion Rajko Mitić,William Collum,Match Report,
+,,,,,,,,,,,,,,
+Group stage,3,Tue,2023-10-24,18:45,Interit,2.3,2–1,0.5,atRB Salzburg,"71,825",Stadio Giuseppe Meazza,François Letexier,Match Report,
+Group stage,3,Tue,2023-10-24,19:45,Galatasaraytr,2.7,1–3,1.9,deBayern Munich,"51,776",RAMS Park,Davide Massa,Match Report,
+Group stage,3,Tue,2023-10-24,20:00,Manchester Utdeng,1.7,1–0,1.9,dkFC Copenhagen,"73,249",Old Trafford,Marco Guida,Match Report,
+Group stage,3,Tue,2023-10-24,20:00,Benficapt,0.5,0–1,0.9,esReal Sociedad,"56,002",Estádio do Sport Lisboa e Benfica,Clément Turpin,Match Report,
+Group stage,3,Tue,2023-10-24,20:00,Bragapt,1.5,1–2,0.9,esReal Madrid,"29,820",Estádio Municipal de Braga,Michael Oliver,Match Report,
+Group stage,3,Tue,2023-10-24,21:00,Sevillaes,0.8,1–2,1.9,engArsenal,"39,595",Estadio Ramón Sánchez Pizjuán,Glenn Nyberg,Match Report,
+Group stage,3,Tue,2023-10-24,21:00,Lensfr,1.2,1–1,0.5,nlPSV Eindhoven,"38,133",Stade Bollaert-Delelis,Radu Petrescu,Match Report,
+Group stage,3,Tue,2023-10-24,21:00,Union Berlinde,0.4,0–1,0.2,itNapoli,"72,062",Olympiastadion Berlin,Irfan Peljto,Match Report,
+Group stage,3,Wed,2023-10-25,18:45,Barcelonaes,2.6,2–1,0.9,uaShakhtar,"41,409",Estadi Olímpic Lluís Companys,Ivan Kružliak,Match Report,
+Group stage,3,Wed,2023-10-25,18:45,Feyenoordnl,2.1,3–1,2.3,itLazio,"44,031",Stadion Feijenoord,Tobias Stieler,Match Report,
+Group stage,3,Wed,2023-10-25,20:00,Celticsct,0.9,2–2,2.1,esAtlético Madrid,"55,844",Celtic Park,Felix Zwayer,Match Report,
+Group stage,3,Wed,2023-10-25,20:00,Newcastle Utdeng,1.1,0–1,1.8,deDortmund,"52,024",St James' Park,Artur Soares Dias,Match Report,
+Group stage,3,Wed,2023-10-25,21:00,Antwerpbe,0.7,1–4,1.3,ptPorto,"13,651",Bosuilstadion,Benoît Bastien,Match Report,
+Group stage,3,Wed,2023-10-25,21:00,Young Boysch,0.4,1–3,4.2,engManchester City,"31,500",Stadion Wankdorf,Morten Krogh,Match Report,
+Group stage,3,Wed,2023-10-25,21:00,Paris S-Gfr,1.3,3–0,0.6,itMilan,"45,962",Parc des Princes,Slavko Vinčič,Match Report,
+Group stage,3,Wed,2023-10-25,21:00,RB Leipzigde,3.1,3–1,1.0,rsRed Star,"42,209",Red Bull Arena,José Sánchez,Match Report,
+,,,,,,,,,,,,,,
+Group stage,4,Tue,2023-11-07,18:45,Dortmundde,1.4,2–0,0.6,engNewcastle Utd,"81,365",Signal Iduna Park,Alejandro Hernández,Match Report,
+Group stage,4,Tue,2023-11-07,19:45,Shakhtarua,0.9,1–0,0.9,esBarcelona,"49,147",Volksparkstadion,Irfan Peljto,Match Report,
+Group stage,4,Tue,2023-11-07,20:00,Manchester Cityeng,3.4,3–0,0.0,chYoung Boys,"51,049",Etihad Stadium,Erik Lambrechts,Match Report,
+Group stage,4,Tue,2023-11-07,20:00,Portopt,2.2,2–0,0.6,beAntwerp,"44,830",Estádio Do Dragão,Maurizio Mariani,Match Report,
+Group stage,4,Tue,2023-11-07,21:00,Red Starrs,1.5,1–2,2.3,deRB Leipzig,"41,961",Stadion Rajko Mitić,Daniele Orsato,Match Report,
+Group stage,4,Tue,2023-11-07,21:00,Milanit,1.4,2–1,1.5,frParis S-G,"75,649",Stadio Giuseppe Meazza,Jesús Gil,Match Report,
+Group stage,4,Tue,2023-11-07,21:00,Atlético Madrides,2.9,6–0,0.0,sctCeltic,"60,863",Estadio Cívitas Metropolitano,Ivan Kružliak,Match Report,
+Group stage,4,Tue,2023-11-07,21:00,Lazioit,1.1,1–0,1.4,nlFeyenoord,"36,612",Stadio Olimpico,Szymon Marciniak,Match Report,
+Group stage,4,Wed,2023-11-08,18:45,Real Sociedades,3.3,3–1,0.8,ptBenfica,"36,815",Reale Arena,Anthony Taylor,Match Report,
+Group stage,4,Wed,2023-11-08,18:45,Napoliit,1.7,1–1,1.1,deUnion Berlin,"42,449",Stadio Diego Armando Maradona,Danny Makkelie,Match Report,
+Group stage,4,Wed,2023-11-08,20:00,Arsenaleng,1.5,2–0,0.0,esSevilla,"60,024",Arsenal Stadium,István Kovács,Match Report,
+Group stage,4,Wed,2023-11-08,21:00,PSV Eindhovennl,0.8,1–0,1.1,frLens,"34,200",Philips Stadion,Daniel Siebert,Match Report,
+Group stage,4,Wed,2023-11-08,21:00,RB Salzburgat,0.8,0–1,2.0,itInter,"30,071",Red Bull Arena,Serdar Gözübüyük,Match Report,
+Group stage,4,Wed,2023-11-08,21:00,FC Copenhagendk,2.2,4–3,3.0,engManchester Utd,"36,099",Parken,Donatas Rumšas,Match Report,
+Group stage,4,Wed,2023-11-08,21:00,Bayern Munichde,2.5,2–1,0.7,trGalatasaray,"75,000",Allianz Arena,António Nobre,Match Report,
+Group stage,4,Wed,2023-11-08,21:00,Real Madrides,3.2,3–0,1.4,ptBraga,"68,509",Estadio Santiago Bernabéu,Halil Umut Meler,Match Report,
+,,,,,,,,,,,,,,
+Group stage,5,Tue,2023-11-28,18:45,Lazioit,2.3,2–0,0.4,sctCeltic,"50,555",Stadio Olimpico,Halil Umut Meler,Match Report,
+Group stage,5,Tue,2023-11-28,19:45,Shakhtarua,1.3,1–0,1.1,beAntwerp,"47,209",Volksparkstadion (1953),Bartosz Frankowski,Match Report,
+Group stage,5,Tue,2023-11-28,20:00,Manchester Cityeng,1.8,3–2,0.5,deRB Leipzig,"51,402",Etihad Stadium,Glenn Nyberg,Match Report,
+Group stage,5,Tue,2023-11-28,21:00,Milanit,2.1,1–3,1.8,deDortmund,"75,292",Stadio Giuseppe Meazza,István Kovács,Match Report,
+Group stage,5,Tue,2023-11-28,21:00,Paris S-Gfr,4.4,1–1,1.3,engNewcastle Utd,"46,435",Parc des Princes,Szymon Marciniak,Match Report,
+Group stage,5,Tue,2023-11-28,21:00,Feyenoordnl,1.1,1–3,1.3,esAtlético Madrid,"43,992",Stadion Feijenoord,Anthony Taylor,Match Report,
+Group stage,5,Tue,2023-11-28,21:00,Young Boysch,1.3,2–0,1.8,rsRed Star,"31,500",Stadion Wankdorf,Danny Makkelie,Match Report,
+Group stage,5,Tue,2023-11-28,21:00,Barcelonaes,1.8,2–1,1.1,ptPorto,"43,533",Estadi Olímpic Lluís Companys,Daniele Orsato,Match Report,
+Group stage,5,Wed,2023-11-29,18:45,Sevillaes,1.8,2–3,2.2,nlPSV Eindhoven,"29,403",Estadio Ramón Sánchez Pizjuán,Davide Massa,Match Report,
+Group stage,5,Wed,2023-11-29,20:00,Benficapt,1.6,3–3,3.0,itInter,"52,944",Estádio do Sport Lisboa e Benfica,Andris Treimanis,Match Report,
+Group stage,5,Wed,2023-11-29,20:00,Bragapt,1.8,1–1,0.8,deUnion Berlin,"15,855",Estádio Municipal de Braga,Clément Turpin,Match Report,
+Group stage,5,Wed,2023-11-29,20:00,Arsenaleng,2.6,6–0,0.4,frLens,"59,987",Emirates Stadium,Artur Soares Dias,Match Report,
+Group stage,5,Wed,2023-11-29,20:45,Galatasaraytr,1.5,3–3,1.6,engManchester Utd,"51,733",RAMS Park,José Sánchez,Match Report,
+Group stage,5,Wed,2023-11-29,21:00,Bayern Munichde,0.7,0–0,0.7,dkFC Copenhagen,"75,000",Allianz Arena,Stéphanie Frappart,Match Report,
+Group stage,5,Wed,2023-11-29,21:00,Real Madrides,2.8,4–2,1.4,itNapoli,"73,562",Estadio Santiago Bernabéu,François Letexier,Match Report,
+Group stage,5,Wed,2023-11-29,21:00,Real Sociedades,1.3,0–0,0.6,atRB Salzburg,"34,419",Reale Arena,Mykola Balakin,Match Report,
+,,,,,,,,,,,,,,
+Group stage,6,Tue,2023-12-12,18:45,Lensfr,1.4,2–1,1.3,esSevilla,"37,456",Stade Bollaert-Delelis,Felix Zwayer,Match Report,
+Group stage,6,Tue,2023-12-12,18:45,PSV Eindhovennl,1.3,1–1,1.0,engArsenal,"35,000",Philips Stadion,Tobias Stieler,Match Report,
+Group stage,6,Tue,2023-12-12,20:00,Manchester Utdeng,0.3,0–1,1.2,deBayern Munich,"73,073",Old Trafford,Espen Eskås,Match Report,
+Group stage,6,Tue,2023-12-12,21:00,FC Copenhagendk,1.3,1–0,1.4,trGalatasaray,"34,726",Fælledparken Kunst,Daniele Orsato,Match Report,
+Group stage,6,Tue,2023-12-12,21:00,Interit,0.7,0–0,0.7,esReal Sociedad,"69,010",Stadio Giuseppe Meazza,Sandro Schärer,Match Report,
+Group stage,6,Tue,2023-12-12,21:00,RB Salzburgat,1.6,1–3,3.1,ptBenfica,"27,134",Red Bull Arena,Daniel Siebert,Match Report,
+Group stage,6,Tue,2023-12-12,21:00,Union Berlinde,1.1,2–3,2.9,esReal Madrid,"73,420",Olympiastadion Berlin,Rade Obrenović,Match Report,
+Group stage,6,Tue,2023-12-12,21:00,Napoliit,1.4,2–0,1.0,ptBraga,"37,841",Stadio Diego Armando Maradona,Slavko Vinčič,Match Report,
+Group stage,6,Wed,2023-12-13,18:45,RB Leipzigde,0.7,2–1,1.5,chYoung Boys,"43,331",Red Bull Arena,Manfredas Lukjančukas,Match Report,
+Group stage,6,Wed,2023-12-13,18:45,Red Starrs,1.1,2–3,1.4,engManchester City,"49,443",Stadion Rajko Mitić,Əliyar Ağayev,Match Report,
+Group stage,6,Wed,2023-12-13,20:00,Newcastle Utdeng,1.8,1–2,1.9,itMilan,"52,037",St James' Park,Danny Makkelie,Match Report,
+Group stage,6,Wed,2023-12-13,20:00,Portopt,2.7,5–3,1.5,uaShakhtar,"48,113",Estádio Do Dragão,István Kovács,Match Report,
+Group stage,6,Wed,2023-12-13,20:00,Celticsct,2.2,2–1,2.1,nlFeyenoord,"56,391",Celtic Park,Benoît Bastien,Match Report,
+Group stage,6,Wed,2023-12-13,21:00,Antwerpbe,1.7,3–2,1.1,esBarcelona,"13,550",Bosuilstadion,Marco Guida,Match Report,
+Group stage,6,Wed,2023-12-13,21:00,Dortmundde,1.4,1–1,2.8,frParis S-G,"81,365",Signal Iduna Park,Glenn Nyberg,Match Report,
+Group stage,6,Wed,2023-12-13,21:00,Atlético Madrides,1.3,2–0,0.9,itLazio,"63,574",Stadium Metropolitano,Serdar Gözübüyük,Match Report,
+,,,,,,,,,,,,,,
+Round of 16,,Tue,2024-02-13,21:00,RB Leipzigde,1.4,0–1,1.4,esReal Madrid,"45,028",Red Bull Arena,Irfan Peljto,Match Report,Leg 1 of 2
+Round of 16,,Tue,2024-02-13,21:00,FC Copenhagendk,0.3,1–3,3.3,engManchester City,"35,853",Parken,José Sánchez,Match Report,Leg 1 of 2
+Round of 16,,Wed,2024-02-14,21:00,Lazioit,1.6,1–0,1.1,deBayern Munich,"57,470",Stadio Olimpico,François Letexier,Match Report,Leg 1 of 2
+Round of 16,,Wed,2024-02-14,21:00,Paris S-Gfr,1.2,2–0,0.7,esReal Sociedad,"46,435",Parc des Princes,Marco Guida,Match Report,Leg 1 of 2
+Round of 16,,Tue,2024-02-20,21:00,PSV Eindhovennl,1.6,1–1,0.9,deDortmund,"34,950",Philips Stadion,Srđan Jovanović,Match Report,Leg 1 of 2
+Round of 16,,Tue,2024-02-20,21:00,Interit,2.3,1–0,0.6,esAtlético Madrid,"73,709",Stadio Giuseppe Meazza,István Kovács,Match Report,Leg 1 of 2
+Round of 16,,Wed,2024-02-21,20:00,Portopt,1.0,1–0,0.4,engArsenal,"49,111",Estádio Do Dragão,Serdar Gözübüyük,Match Report,Leg 1 of 2
+Round of 16,,Wed,2024-02-21,21:00,Napoliit,0.9,1–1,0.7,esBarcelona,"49,529",Stadio Diego Armando Maradona,Felix Zwayer,Match Report,Leg 1 of 2
+Round of 16,,Tue,2024-03-05,21:00,Bayern Munichde,3.5,3–0,0.4,itLazio,"75,000",Allianz Arena,Slavko Vinčič,Match Report,Leg 2 of 2; Bayern Munich won
+Round of 16,,Tue,2024-03-05,21:00,Real Sociedades,0.9,1–2,1.4,frParis S-G,"39,336",Reale Arena,Michael Oliver,Match Report,Leg 2 of 2; Paris S-G won
+Round of 16,,Wed,2024-03-06,20:00,Manchester Cityeng,0.8,3–1,1.2,dkFC Copenhagen,"51,531",Etihad Stadium,Espen Eskås,Match Report,Leg 2 of 2; Manchester City won
+Round of 16,,Wed,2024-03-06,21:00,Real Madrides,0.8,1–1,1.0,deRB Leipzig,"76,126",Estadio Santiago Bernabéu,Davide Massa,Match Report,Leg 2 of 2; Real Madrid won
+Round of 16,,Tue,2024-03-12,20:00,Arsenaleng,0.9,(4)1–0(2),0.5,ptPorto,"60,257",Emirates Stadium,Clément Turpin,Match Report,Leg 2 of 2; Arsenal won; Arsenal won on penalty kicks following extra time
+Round of 16,,Tue,2024-03-12,21:00,Barcelonaes,2.7,3–1,1.3,itNapoli,"50,301",Estadi Olímpic Lluís Companys,Danny Makkelie,Match Report,Leg 2 of 2; Barcelona won
+Round of 16,,Wed,2024-03-13,21:00,Dortmundde,1.5,2–0,1.5,nlPSV Eindhoven,"81,365",Signal Iduna Park,Daniele Orsato,Match Report,Leg 2 of 2; Dortmund won
+Round of 16,,Wed,2024-03-13,21:00,Atlético Madrides,2.7,(3)2–1(2),1.6,itInter,"69,196",Stadium Metropolitano,Szymon Marciniak,Match Report,Leg 2 of 2; Atlético Madrid won; Atlético Madrid won on penalty kicks following extra time
+Quarter-finals,,Tue,2024-04-09,20:00,Arsenaleng,1.0,2–2,1.9,deBayern Munich,"60,221",Emirates Stadium,Glenn Nyberg,Match Report,Leg 1 of 2
+Quarter-finals,,Tue,2024-04-09,21:00,Real Madrides,0.7,3–3,0.8,engManchester City,"76,680",Estadio Santiago Bernabéu,François Letexier,Match Report,Leg 1 of 2
+Quarter-finals,,Wed,2024-04-10,21:00,Atlético Madrides,2.2,2–1,0.9,deDortmund,"68,641",Estadio Cívitas Metropolitano,Marco Guida,Match Report,Leg 1 of 2
+Quarter-finals,,Wed,2024-04-10,21:00,Paris S-Gfr,1.2,2–3,1.9,esBarcelona,"47,470",Parc des Princes,Anthony Taylor,Match Report,Leg 1 of 2
+Quarter-finals,,Tue,2024-04-16,21:00,Barcelonaes,1.1,1–4,2.3,frParis S-G,"50,309",Estadi Olímpic Lluís Companys,István Kovács,Match Report,Leg 2 of 2; Paris S-G won
+Quarter-finals,,Tue,2024-04-16,21:00,Dortmundde,1.5,4–2,1.9,esAtlético Madrid,"81,365",Signal Iduna Park,Slavko Vinčič,Match Report,Leg 2 of 2; Dortmund won
+Quarter-finals,,Wed,2024-04-17,20:00,Manchester Cityeng,2.7,(3)1–1(4),1.4,esReal Madrid,"52,306",Etihad Stadium,Daniele Orsato,Match Report,Leg 2 of 2; Real Madrid won; Real Madrid won on penalty kicks following extra time
+Quarter-finals,,Wed,2024-04-17,21:00,Bayern Munichde,1.3,1–0,0.4,engArsenal,"75,000",Allianz Arena,Danny Makkelie,Match Report,Leg 2 of 2; Bayern Munich won
+Semi-finals,,Tue,2024-04-30,21:00,Bayern Munichde,1.6,2–2,1.9,esReal Madrid,"75,000",Allianz Arena,Clément Turpin,Match Report,Leg 1 of 2
+Round,Wk,Day,Date,Time,Home,xG,Score,xG,Away,Attendance,Venue,Referee,Match Report,Notes
+Semi-finals,,Wed,2024-05-01,21:00,Dortmundde,1.7,1–0,1.7,frParis S-G,"81,365",Signal Iduna Park,Anthony Taylor,Match Report,Leg 1 of 2
+Semi-finals,,Tue,2024-05-07,21:00,Paris S-Gfr,3.0,0–1,0.7,deDortmund,"46,435",Parc des Princes,Daniele Orsato,Match Report,Leg 2 of 2; Dortmund won
+Semi-finals,,Wed,2024-05-08,21:00,Real Madrides,2.8,2–1,0.4,deBayern Munich,"76,579",Estadio Santiago Bernabéu,Szymon Marciniak,Match Report,Leg 2 of 2; Real Madrid won
+Final,,Sat,2024-06-01,20:00,Dortmundde,2.1,0–2,1.1,esReal Madrid,"86,212",Wembley Stadium connected by EE,Slavko Vinčič,Match Report,
