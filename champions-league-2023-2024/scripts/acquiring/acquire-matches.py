@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 
 # url and path constants
 URL = 'https://fbref.com/en/comps/8/2023-2024/schedule/2023-2024-Champions-League-Scores-and-Fixtures'
-SAVE_PATH = "../data/raw/matches.csv"
+SAVE_PATH = "../../data/raw/matches.csv"
 
 
 def get_html(url: str):
@@ -24,23 +24,25 @@ def parse_table(html_data: str):
     """parse html content and return it as a dataframe"""
     try:
         soup = BeautifulSoup(html_data, 'html.parser')
-        table = soup.find('table', {'id': 'sched_all'})
+        table = soup.find('table', {'class': 'stats_table'})
 
         if not table:
             logging.error("table wasn't found in the file")
             return None
 
-        rows = table.find_all('tr')
-        match_data = [
-            [cell.get_text(strip=True) for cell in row.find_all(["th", "td"])]
-            for row in rows
-        ]
+        headers = [th.get_text(strip=True) for th in table.find("thead").find_all("th")]
 
-        if len(match_data) <= 1:
-            logging.error("no data was found in the table")
+        rows = []
+        for row in table.find("tbody").find_all("tr"):
+            cells = [cell.get_text(strip=True) for cell in row.find_all(["th", "td"])]
+            if cells:
+                rows.append(cells)
+
+        if not rows:
+            logging.error("No data rows found in the table.")
             return None
         
-        df = pd.DataFrame(match_data[1:], columns=match_data[0])
+        df = pd.DataFrame(rows, columns=headers)
         logging.info("successfully parsed the table")
         return df
     except Exception as e:
@@ -65,7 +67,7 @@ def main():
         return
 
     match_data_df = parse_table(html_data)
-    if not match_data_df:
+    if match_data_df is None:
         logging.error("failed to parse match data")
         return
 
