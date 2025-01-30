@@ -4,6 +4,13 @@ import requests
 from bs4 import BeautifulSoup
 
 
+# configure logging
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s - %(levelname)s - %(message)s",
+)
+
+
 # url and path constants
 URL = 'https://fbref.com/en/comps/8/2023-2024/schedule/2023-2024-Champions-League-Scores-and-Fixtures'
 SAVE_PATH = "../../data/raw/matches.csv"
@@ -61,6 +68,8 @@ def save_to_csv(df: pd.DataFrame, path: str):
 
 def main():
     """set up data acquisition process"""
+    logging.info("starting data acquiring process")
+
     html_data = get_html(URL)
     if not html_data:
         logging.error("failed to get html data")
