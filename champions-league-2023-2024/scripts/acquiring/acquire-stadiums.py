@@ -1,6 +1,17 @@
 import logging
 import pandas as pd
 import requests
+import sys
+import os
+
+# get the absolute path of the project root (two levels up from current script)
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+PROJECT_ROOT = os.path.abspath(os.path.join(SCRIPT_DIR, "../../"))
+
+# add project root to sys.path
+sys.path.append(PROJECT_ROOT)
+
+from utils.io import save_to_csv
 from bs4 import BeautifulSoup
 
 
@@ -45,15 +56,6 @@ def parse_table(html_data: str):
     except Exception as e:
         logging.error(f"error parsing the html table: {e}")
         return None
-    
-
-def save_to_csv(df: pd.DataFrame, path: str):
-    """save the dataframe to a csv file"""
-    try:
-        df.to_csv(path, index=False)
-        logging.info("successfully saved data")
-    except Exception as e:
-        logging.error(f"error saving data to csv {e}")
 
 
 def main():

@@ -1,6 +1,17 @@
 import logging
 import pandas as pd
 import requests
+import sys
+import os
+
+# get the absolute path of the project root (two levels up from current script)
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+PROJECT_ROOT = os.path.abspath(os.path.join(SCRIPT_DIR, "../../"))
+
+# add project root to sys.path
+sys.path.append(PROJECT_ROOT)
+
+from utils.io import save_to_csv
 from bs4 import BeautifulSoup
 
 
@@ -12,7 +23,7 @@ logging.basicConfig(
 
 
 # url and path constants
-URL = 'https://fbref.com/en/comps/8/2023-2024/schedule/2023-2024-Champions-League-Scores-and-Fixtures'
+URL = "https://fbref.com/en/comps/8/2023-2024/schedule/2023-2024-Champions-League-Scores-and-Fixtures"
 SAVE_PATH = "../../data/raw/matches.csv"
 
 
@@ -30,8 +41,8 @@ def get_html(url: str):
 def parse_table(html_data: str):
     """parse html content and return it as a dataframe"""
     try:
-        soup = BeautifulSoup(html_data, 'html.parser')
-        table = soup.find('table', {'class': 'stats_table'})
+        soup = BeautifulSoup(html_data, "html.parser")
+        table = soup.find("table", {"class": "stats_table"})
 
         if not table:
             logging.error("table wasn't found in the file")
@@ -48,22 +59,13 @@ def parse_table(html_data: str):
         if not rows:
             logging.error("No data rows found in the table.")
             return None
-        
+
         df = pd.DataFrame(rows, columns=headers)
         logging.info("successfully parsed the table")
         return df
     except Exception as e:
         logging.error(f"error parsing the html table: {e}")
         return None
-
-
-def save_to_csv(df: pd.DataFrame, path: str):
-    """save the dataframe to a csv file"""
-    try:
-        df.to_csv(path, index=False)
-        logging.info("successfully saved data")
-    except Exception as e:
-        logging.error(f"error saving data to csv {e}")
 
 
 def main():
@@ -82,7 +84,7 @@ def main():
 
     save_to_csv(match_data_df, SAVE_PATH)
     logging.info("data acquistion was successful!")
-    
+
 
 if __name__ == "__main__":
     main()
