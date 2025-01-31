@@ -1,5 +1,16 @@
 import pandas as pd
 import logging
+import sys
+import os
+
+# get the absolute path of the project root (two levels up from current script)
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+PROJECT_ROOT = os.path.abspath(os.path.join(SCRIPT_DIR, "../../"))
+
+# add project root to sys.path
+sys.path.append(PROJECT_ROOT)
+
+from utils.io import load_data, save_to_csv
 
 
 # configure logging
@@ -55,17 +66,6 @@ STADIUMS_TO_FIX = {
     "Fælledparken Kunst": "Parken",
     "Estádio Do Dragão": "Estádio do Dragão",
 }
-
-
-def load_data(path: str):
-    """load data from a csv file"""
-    try:
-        df = pd.read_csv(path)
-        logging.info("successfully loaded data")
-        return df
-    except Exception as e:
-        logging.error(f"error loading data from csv {e}")
-        raise
 
 
 def drop_unnecessary_columns(df: pd.DataFrame, columns: list):
@@ -125,15 +125,6 @@ def fix_stadium_names(df: pd.DataFrame, stadiums_to_fix: dict):
 
     logging.info("successfully fixed stadium names")
     return df
-
-
-def save_to_csv(df: pd.DataFrame, path: str):
-    """save the dataframe to a csv file"""
-    try:
-        df.to_csv(path, index=False)
-        logging.info("successfully saved data")
-    except Exception as e:
-        logging.error(f"error saving data to csv {e}")
 
 
 def main():
