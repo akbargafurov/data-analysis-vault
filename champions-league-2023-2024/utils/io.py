@@ -9,7 +9,7 @@ logging.basicConfig(
 )
 
 
-def load_data(path: str):
+def load_data(path: str) -> pd.DataFrame:
     """load data from a csv file"""
     try:
         df = pd.read_csv(path)
@@ -20,7 +20,7 @@ def load_data(path: str):
         raise
 
 
-def save_to_csv(df: pd.DataFrame, path: str):
+def save_to_csv(df: pd.DataFrame, path: str) -> pd.DataFrame:
     """save the dataframe to a csv file"""
     try:
         df.to_csv(path, index=False)
