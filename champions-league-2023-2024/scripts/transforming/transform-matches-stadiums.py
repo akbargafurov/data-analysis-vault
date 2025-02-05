@@ -37,7 +37,7 @@ city_coords_cache = {}
 score_regex = re.compile(r"(\d+)\u2013(\d+)$")
 
 
-def get_city_coords(city: str):
+def get_city_coords(city: str) -> tuple:
     """return latitude & longitude for a given city, using caching to avoid repeated requests"""
     if city not in city_coords_cache:
         try:
@@ -52,7 +52,7 @@ def get_city_coords(city: str):
     return city_coords_cache[city]
 
 
-def determine_result(score: str):
+def determine_result(score: str) -> str:
     """determine the match result"""
     match = score_regex.search(score)
     if match:
@@ -66,7 +66,7 @@ def determine_result(score: str):
     return None
 
 
-def determine_distance(row: pd.Series, home_stadiums: dict):
+def determine_distance(row: pd.Series, home_stadiums: dict) -> float:
     """calculate the geodesic distance the home city and away city"""
     home_city = row["City"]
     home_coords = get_city_coords(home_city)
@@ -77,7 +77,7 @@ def determine_distance(row: pd.Series, home_stadiums: dict):
     return round((geodesic(home_coords, away_coords).kilometers), 2)
 
 
-def determine_points(result: str, team: str):
+def determine_points(result: str, team: str) -> int:
     """determine the number of points a team gets"""
     if team == "Home":
         return 3 if result == "Home Win" else (1 if result == "Draw" else 0)

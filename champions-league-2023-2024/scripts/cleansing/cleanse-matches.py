@@ -68,25 +68,25 @@ STADIUMS_TO_FIX = {
 }
 
 
-def drop_unnecessary_columns(df: pd.DataFrame, columns: list):
+def drop_unnecessary_columns(df: pd.DataFrame, columns: list) -> pd.DataFrame:
     """drop specified columns"""
     logging.info("removing unnecessary columns")
     return df.drop(columns=columns, axis=1)
 
 
-def drop_missing_values(df: pd.DataFrame):
+def drop_missing_values(df: pd.DataFrame) -> pd.DataFrame:
     """drop empty rows"""
     logging.info("removing empty rows")
     return df.dropna().reset_index(drop=True)
 
 
-def filter_group_stage(df: pd.DataFrame):
+def filter_group_stage(df: pd.DataFrame) -> pd.DataFrame:
     """filter the dataset to include only group stage fixtures"""
     logging.info("filtering only group stage matches")
     return df[df["Round"] == "Group stage"].drop(columns=["Round"], axis=1)
 
 
-def clean_club_names(df: pd.DataFrame, country_codes: list):
+def clean_club_names(df: pd.DataFrame, country_codes: list) -> pd.DataFrame:
     """clean club names by removing country codes"""
     away_pattern = r"^[a-z]{2,3}"
     df["Away"] = df["Away"].str.replace(away_pattern, "", regex=True)
@@ -101,14 +101,14 @@ def clean_club_names(df: pd.DataFrame, country_codes: list):
     return df
 
 
-def clean_attendance(df: pd.DataFrame):
+def clean_attendance(df: pd.DataFrame) -> pd.DataFrame:
     """remove commas from attendance and convert it into integers"""
     logging.info("cleaning attendance column")
     df["Attendance"] = df["Attendance"].str.replace(",", "").astype(int)
     return df
 
 
-def fix_stadium_names(df: pd.DataFrame, stadiums_to_fix: dict):
+def fix_stadium_names(df: pd.DataFrame, stadiums_to_fix: dict) -> pd.DataFrame:
     """replaces incorrect stadium names with correct ones"""
     logging.info("fixing stadium names")
     df["Venue"] = df["Venue"].replace(stadiums_to_fix)

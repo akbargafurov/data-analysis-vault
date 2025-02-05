@@ -47,7 +47,7 @@ CITY_STADIUM_FIXES = {
 }
 
 
-def preprocess_stadium_data(df: pd.DataFrame):
+def preprocess_stadium_data(df: pd.DataFrame) -> pd.DataFrame:
     """introduce minor changes"""
     logging.info("preprocessing stadium data")
     df.rename(columns={"stadium": "Venue"}, inplace=True)
@@ -59,12 +59,12 @@ def preprocess_stadium_data(df: pd.DataFrame):
     return df
 
 
-def get_unique_stadium_names(matches_df: pd.DataFrame):
+def get_unique_stadium_names(matches_df: pd.DataFrame) -> pd.DataFrame:
     """extract unique stadium names from the matches dataframe"""
     return set(matches_df["Venue"].dropna().unique())
 
 
-def fix_stadium_names(df: pd.DataFrame, stadiums: set):
+def fix_stadium_names(df: pd.DataFrame, stadiums: set) -> pd.DataFrame:
     """dynamically correct stadium names"""
     logging.info("fixing stadium name dynamically")
 
@@ -76,7 +76,7 @@ def fix_stadium_names(df: pd.DataFrame, stadiums: set):
     return df
 
 
-def apply_manual_stadium_names(df: pd.DataFrame):
+def apply_manual_stadium_names(df: pd.DataFrame) -> pd.DataFrame:
     """apply predefined manual fixes for stadium names."""
     logging.info("applying manual stadium name fixes")
 
@@ -88,7 +88,7 @@ def apply_manual_stadium_names(df: pd.DataFrame):
     return df
 
 
-def add_new_stadium(df: pd.DataFrame):
+def add_new_stadium(df: pd.DataFrame) -> pd.DataFrame:
     """add 'San Siro' as Milan's home stadium"""
     logging.info("adding Milan's home stadium")
 
