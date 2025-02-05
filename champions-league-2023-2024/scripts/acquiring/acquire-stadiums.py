@@ -20,7 +20,7 @@ URL = "https://www.worldfootball.net/venues/champions-league-2023-2024/"
 SAVE_PATH = "../../data/raw/stadiums.csv"
 
 
-def get_html(url: str):
+def get_html(url: str) -> bytes:
     """fetch html content from a url"""
     try:
         response = requests.get(url)
@@ -31,7 +31,7 @@ def get_html(url: str):
         return None
     
 
-def parse_table(html_data: str):
+def parse_table(html_data: str) -> pd.DataFrame:
     """parse html content and return it as a dataframe"""
     try:
         soup = BeautifulSoup(html_data, 'html.parser')
