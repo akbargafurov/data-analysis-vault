@@ -27,7 +27,10 @@ by analyzing travel distance and match statistics, i aim to uncover **hidden pat
 2. install dependencies
 ```pip install -r requirements.txt```
 
-3. run the analysis
+3. navigate to the analysis folder
+```cd data-analysis-vault/champions-league-2023-2024/scripts/analysing```
+
+4. run the analysis
 ```python analyse-team-performance.py```
 
 ---
